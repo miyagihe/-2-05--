@@ -23,6 +23,11 @@
 		18728E6A19E38977008F3BFE /* HWMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E6919E38977008F3BFE /* HWMessageCenterViewController.m */; };
 		18728E6D19E38985008F3BFE /* HWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E6C19E38985008F3BFE /* HWDiscoverViewController.m */; };
 		18728E7019E38993008F3BFE /* HWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E6F19E38993008F3BFE /* HWProfileViewController.m */; };
+		18728E7319E38F3C008F3BFE /* HWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E7219E38F3C008F3BFE /* HWTabBarViewController.m */; };
+		18728E7719E3954E008F3BFE /* HWTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E7519E3954E008F3BFE /* HWTest1ViewController.m */; };
+		18728E7819E3954E008F3BFE /* HWTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728E7619E3954E008F3BFE /* HWTest1ViewController.xib */; };
+		18728E7C19E39656008F3BFE /* HWTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E7A19E39656008F3BFE /* HWTest2ViewController.m */; };
+		18728E7D19E39656008F3BFE /* HWTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,14 @@
 		18728E6C19E38985008F3BFE /* HWDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDiscoverViewController.m; sourceTree = "<group>"; };
 		18728E6E19E38993008F3BFE /* HWProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWProfileViewController.h; sourceTree = "<group>"; };
 		18728E6F19E38993008F3BFE /* HWProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWProfileViewController.m; sourceTree = "<group>"; };
+		18728E7119E38F3C008F3BFE /* HWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTabBarViewController.h; sourceTree = "<group>"; };
+		18728E7219E38F3C008F3BFE /* HWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTabBarViewController.m; sourceTree = "<group>"; };
+		18728E7419E3954E008F3BFE /* HWTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTest1ViewController.h; sourceTree = "<group>"; };
+		18728E7519E3954E008F3BFE /* HWTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTest1ViewController.m; sourceTree = "<group>"; };
+		18728E7619E3954E008F3BFE /* HWTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWTest1ViewController.xib; sourceTree = "<group>"; };
+		18728E7919E39656008F3BFE /* HWTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTest2ViewController.h; sourceTree = "<group>"; };
+		18728E7A19E39656008F3BFE /* HWTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTest2ViewController.m; sourceTree = "<group>"; };
+		18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWTest2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +181,14 @@
 				18728E6C19E38985008F3BFE /* HWDiscoverViewController.m */,
 				18728E6E19E38993008F3BFE /* HWProfileViewController.h */,
 				18728E6F19E38993008F3BFE /* HWProfileViewController.m */,
+				18728E7119E38F3C008F3BFE /* HWTabBarViewController.h */,
+				18728E7219E38F3C008F3BFE /* HWTabBarViewController.m */,
+				18728E7419E3954E008F3BFE /* HWTest1ViewController.h */,
+				18728E7519E3954E008F3BFE /* HWTest1ViewController.m */,
+				18728E7619E3954E008F3BFE /* HWTest1ViewController.xib */,
+				18728E7919E39656008F3BFE /* HWTest2ViewController.h */,
+				18728E7A19E39656008F3BFE /* HWTest2ViewController.m */,
+				18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,7 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18728E7819E3954E008F3BFE /* HWTest1ViewController.xib in Resources */,
 				18728E4319E37EB8008F3BFE /* Images.xcassets in Resources */,
+				18728E7D19E39656008F3BFE /* HWTest2ViewController.xib in Resources */,
 				18728E3519E37EB8008F3BFE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18728E6719E3894E008F3BFE /* HWHomeViewController.m in Sources */,
+				18728E7719E3954E008F3BFE /* HWTest1ViewController.m in Sources */,
 				18728E7019E38993008F3BFE /* HWProfileViewController.m in Sources */,
 				18728E6419E38051008F3BFE /* main.m in Sources */,
 				18728E6A19E38977008F3BFE /* HWMessageCenterViewController.m in Sources */,
+				18728E7319E38F3C008F3BFE /* HWTabBarViewController.m in Sources */,
+				18728E7C19E39656008F3BFE /* HWTest2ViewController.m in Sources */,
 				18728E6D19E38985008F3BFE /* HWDiscoverViewController.m in Sources */,
 				18728E6319E38051008F3BFE /* HWAppDelegate.m in Sources */,
 			);
@@ -471,6 +497,7 @@
 				18728E5B19E37EB8008F3BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18728E5C19E37EB8008F3BFE /* Build configuration list for PBXNativeTarget "黑马微博2期Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +506,7 @@
 				18728E5E19E37EB8008F3BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
