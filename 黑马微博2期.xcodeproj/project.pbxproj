@@ -28,6 +28,10 @@
 		18728E7819E3954E008F3BFE /* HWTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728E7619E3954E008F3BFE /* HWTest1ViewController.xib */; };
 		18728E7C19E39656008F3BFE /* HWTest2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E7A19E39656008F3BFE /* HWTest2ViewController.m */; };
 		18728E7D19E39656008F3BFE /* HWTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */; };
+		18728E8019E3C4C0008F3BFE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E7F19E3C4C0008F3BFE /* UIView+Extension.m */; };
+		18728E8419E3C73D008F3BFE /* HWTest3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E8219E3C73D008F3BFE /* HWTest3ViewController.m */; };
+		18728E8519E3C73D008F3BFE /* HWTest3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728E8319E3C73D008F3BFE /* HWTest3ViewController.xib */; };
+		18728E8B19E3C9B7008F3BFE /* HWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728E8A19E3C9B7008F3BFE /* HWNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,13 @@
 		18728E7919E39656008F3BFE /* HWTest2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTest2ViewController.h; sourceTree = "<group>"; };
 		18728E7A19E39656008F3BFE /* HWTest2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTest2ViewController.m; sourceTree = "<group>"; };
 		18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWTest2ViewController.xib; sourceTree = "<group>"; };
+		18728E7E19E3C4C0008F3BFE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18728E7F19E3C4C0008F3BFE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		18728E8119E3C73D008F3BFE /* HWTest3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTest3ViewController.h; sourceTree = "<group>"; };
+		18728E8219E3C73D008F3BFE /* HWTest3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTest3ViewController.m; sourceTree = "<group>"; };
+		18728E8319E3C73D008F3BFE /* HWTest3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWTest3ViewController.xib; sourceTree = "<group>"; };
+		18728E8919E3C9B7008F3BFE /* HWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNavigationController.h; sourceTree = "<group>"; };
+		18728E8A19E3C9B7008F3BFE /* HWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +200,13 @@
 				18728E7919E39656008F3BFE /* HWTest2ViewController.h */,
 				18728E7A19E39656008F3BFE /* HWTest2ViewController.m */,
 				18728E7B19E39656008F3BFE /* HWTest2ViewController.xib */,
+				18728E8119E3C73D008F3BFE /* HWTest3ViewController.h */,
+				18728E8219E3C73D008F3BFE /* HWTest3ViewController.m */,
+				18728E8319E3C73D008F3BFE /* HWTest3ViewController.xib */,
+				18728E7E19E3C4C0008F3BFE /* UIView+Extension.h */,
+				18728E7F19E3C4C0008F3BFE /* UIView+Extension.m */,
+				18728E8919E3C9B7008F3BFE /* HWNavigationController.h */,
+				18728E8A19E3C9B7008F3BFE /* HWNavigationController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -274,6 +292,7 @@
 				18728E4319E37EB8008F3BFE /* Images.xcassets in Resources */,
 				18728E7D19E39656008F3BFE /* HWTest2ViewController.xib in Resources */,
 				18728E3519E37EB8008F3BFE /* InfoPlist.strings in Resources */,
+				18728E8519E3C73D008F3BFE /* HWTest3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18728E8019E3C4C0008F3BFE /* UIView+Extension.m in Sources */,
 				18728E6719E3894E008F3BFE /* HWHomeViewController.m in Sources */,
 				18728E7719E3954E008F3BFE /* HWTest1ViewController.m in Sources */,
 				18728E7019E38993008F3BFE /* HWProfileViewController.m in Sources */,
@@ -299,7 +319,9 @@
 				18728E6A19E38977008F3BFE /* HWMessageCenterViewController.m in Sources */,
 				18728E7319E38F3C008F3BFE /* HWTabBarViewController.m in Sources */,
 				18728E7C19E39656008F3BFE /* HWTest2ViewController.m in Sources */,
+				18728E8419E3C73D008F3BFE /* HWTest3ViewController.m in Sources */,
 				18728E6D19E38985008F3BFE /* HWDiscoverViewController.m in Sources */,
+				18728E8B19E3C9B7008F3BFE /* HWNavigationController.m in Sources */,
 				18728E6319E38051008F3BFE /* HWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

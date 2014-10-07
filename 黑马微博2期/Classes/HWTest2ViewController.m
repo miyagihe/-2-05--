@@ -7,32 +7,17 @@
 //
 
 #import "HWTest2ViewController.h"
+#import "HWTest3ViewController.h"
 
 @interface HWTest2ViewController ()
 
 @end
 
 @implementation HWTest2ViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+    HWTest3ViewController *test3 = [[HWTest3ViewController alloc] init];
+    test3.title = @"测试3控制器";
+    [self.navigationController pushViewController:test3 animated:YES];
 }
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end

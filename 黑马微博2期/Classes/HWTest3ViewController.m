@@ -1,42 +1,26 @@
 //
-//  HWProfileViewController.m
+//  HWTest3ViewController.m
 //  黑马微博2期
 //
 //  Created by apple on 14-10-7.
 //  Copyright (c) 2014年 heima. All rights reserved.
 //
 
-#import "HWProfileViewController.h"
-#import "HWTest1ViewController.h"
+#import "HWTest3ViewController.h"
 
-@interface HWProfileViewController ()
+@interface HWTest3ViewController ()
 
 @end
 
-@implementation HWProfileViewController
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@implementation HWTest3ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:0 target:self action:@selector(setting)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:0 target:nil action:nil];
 }
 
-- (void)setting
-{
-    HWTest1ViewController *test1 = [[HWTest1ViewController alloc] init];
-    test1.title = @"test1";
-    [self.navigationController pushViewController:test1 animated:YES];
-}
 
 #pragma mark - Table view data source
 
@@ -104,13 +88,19 @@
 */
 
 /*
-#pragma mark - Navigation
+#pragma mark - Table view delegate
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+// In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Get the new view controller using [segue destinationViewController].
+    // Navigation logic may go here, for example:
+    // Create the next view controller.
+    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
+    
     // Pass the selected object to the new view controller.
+    
+    // Push the view controller.
+    [self.navigationController pushViewController:detailViewController animated:YES];
 }
 */
 
